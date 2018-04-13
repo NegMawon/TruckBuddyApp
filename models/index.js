@@ -1,7 +1,7 @@
 var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 
-mongoose.connect("mongodb://localhost/TruckBuddyData");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/TruckBuddyData");
 
 module.exports.Product = require("./product");
 module.exports.User = require("./user");
