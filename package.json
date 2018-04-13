@@ -23,6 +23,7 @@
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "express-session": "^1.15.6",
+    "faker": "^4.1.0",
     "flash-express": "^1.0.4",
     "jquery": "^3.3.1",
     "method-override": "^2.3.10",
